@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="w-full bg-[#F9F9F9] shadow-[0_2px_16px_0_#0000001A]">
+    <nav className="fixed top-0 left-0 w-full bg-[#F9F9F9] shadow-[0_2px_16px_0_#0000001A] z-50">
       <div
         className="
           max-w-[1440px] mx-auto 
@@ -11,7 +11,6 @@ export default function Navbar() {
           items-center px-6 md:px-[124px] py-4 gap-4
         "
       >
-
         <Image
           src="/Hdlogo.png"
           alt="logo"
@@ -19,7 +18,6 @@ export default function Navbar() {
           height={55}
           className="object-contain"
         />
-
 
         <div className="flex justify-center md:justify-end w-full md:w-[443px] h-[42px] gap-3">
           <input
