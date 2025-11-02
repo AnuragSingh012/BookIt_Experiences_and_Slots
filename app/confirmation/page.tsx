@@ -51,7 +51,7 @@ function ConfirmationContent() {
 
   if (loading) {
     return (
-      <div className="max-w-[1440px] mx-auto px-6 md:px-[124px] py-12 text-center">
+      <div className="max-w-[1440px] h-full flex justify-center items-center mx-auto px-6 md:px-[124px] py-12 text-center">
         <p>Loading booking details...</p>
       </div>
     );
@@ -59,7 +59,7 @@ function ConfirmationContent() {
 
   if (!booking) {
     return (
-      <div className="max-w-[1440px] mx-auto px-6 md:px-[124px] py-12 text-center">
+      <div className="max-w-[1440px] h-full mx-auto px-6 md:px-[124px] py-12 text-center">
         <p>Booking not found</p>
         <Link href="/" className="text-blue-600 underline mt-4 inline-block">
           Back to Home
