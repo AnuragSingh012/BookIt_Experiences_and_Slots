@@ -32,7 +32,7 @@ export default function Navbar() {
       >
         <Link href="/">
           <Image
-            src="/Hdlogo.png"
+            src="/HDlogo.png"
             alt="logo"
             width={100}
             height={55}
